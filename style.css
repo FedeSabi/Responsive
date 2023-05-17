@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: rgb(33,33,33);
+}
+.titulo{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -60px;
+}
+.loremTitulo{
+    display: flex;
+    flex-direction: column;
+    margin-left:-180px;
+    width: 300px;
+}
+.openPage{
+    background-color:  rgb(255, 171, 126);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 25px;
+    width: 150px;
+}
+h1, h2, h3, p, i, ul, li{
+    
+    color: white;
+}
+.ourBlog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left:40px;
+
+}
+.ourBlog i{
+    background-color:  rgb(255, 171, 126);
+    color: black;
+}
+.ourBlog span{
+    background-color:  rgb(255, 171, 126);
+}
+/*//botones bien diseñados igual que el original!!/*/
+.btsReadMore{
+    background-color: white ;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    width: 120px;
+    height: 40px;  
+}
+.margenH3{
+  
+    width: 200px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.margenP{
+    width: 250px;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+.contenedorCards1{
+    display: flex;
+    margin: 80px;
+    margin-top: -10px;
+    
+}
+.cardUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.img1{
+    background-image: url("./img/pexels-ali-kazal-10772002.jpg");
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius:15px ;
+    text-align:right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.btn1{
+    background-color: white;
+    border-radius:20px ;
+    padding: 8px;
+    width: 80px;
+    height: 40px; 
+}
+.ContenidoUno{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+}
+.cardDos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    background-image: url("./img/pexels-ann-zzz-8330659.jpg");
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius:15px ;
+    text-align:right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.btn2{
+    background-color: white;
+    border-radius:20px ;
+    padding: 8px;
+    width: 80px;
+    height: 40px;    
+}
+.ContenidoDos{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+}
+.contenedorCards2{
+    display: flex;
+    margin: 80px;
+    margin-top: -70px;
+}
+.cardTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.img3{
+    background-image: url("./img/pexels-gül-işık-2452345.jpg");
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius:15px ;
+    text-align:right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.btn3{
+    background-color: white;
+    border-radius:20px ;
+    padding: 8px;
+    width: 80px;
+    height: 40px;  
+}
+.ContenidoTres{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+}
+.cardCuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img4{
+    background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius:15px ;
+    text-align:right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.btn4{
+    background-color: white;
+    border-radius:20px ;
+    padding: 8px;
+    width: 80px;
+    height: 40px; 
+}
+.ContenidoCuatro{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+}
+.contenedorFinal{
+    display: flex;
+    margin-left: 40px;
+    height:250px;
+    width:95%;
+    background-color: rgb(59, 59, 59);
+    border-radius:40px;
+}
+.exery{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    height:180px;
+    width:50px;
+}
+.icons{
+    margin-top: 30px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+   align-items: left;
+    justify-content:space-between;
+    
+ 
+}
+.helpContenedor{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+.help{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content:center;
+    height: 100px;
+    
+}
+.help li{
+    color: rgb(115, 115, 115);
+    size: 1em;
+}
+.aboutContenedor{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+.about li{
+    color: rgb(115, 115, 115);
+}
+.mobileContenedor{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mobile{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    
+}
+.mobile li{
+    color: rgb(115, 115, 115);
+}
+.piePagina{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.privacy{
+    color:rgb(115, 115, 115); 
+}
