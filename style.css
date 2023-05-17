@@ -7,8 +7,10 @@
 body{
     background-color: rgb(33,33,33);
 }
+
 .titulo{
     color: white;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     font-weight: 600;
     margin-left: -60px;
