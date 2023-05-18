@@ -213,7 +213,7 @@ h1, h2, h3, p, i, ul, li{
     display: flex;
     margin-left: 40px;
     height:250px;
-    width:95%;
+    width:90%;
     background-color: rgb(59, 59, 59);
     border-radius:40px;
 }
@@ -232,16 +232,15 @@ h1, h2, h3, p, i, ul, li{
     width: 60px;
     display: flex;
     flex-direction: row;
-   align-items: left;
+    align-items: left;
     justify-content:space-between;
     
- 
 }
 .helpContenedor{
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-evenly;   
 }
@@ -251,7 +250,6 @@ h1, h2, h3, p, i, ul, li{
     flex-direction: column;
     justify-content:center;
     height: 100px;
-    
 }
 .help li{
     color: rgb(115, 115, 115);
@@ -260,8 +258,8 @@ h1, h2, h3, p, i, ul, li{
 .aboutContenedor{
     display: flex;
     margin-left: 150px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -278,8 +276,8 @@ h1, h2, h3, p, i, ul, li{
 .mobileContenedor{
     display: flex;
     margin-left: 150px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-evenly;
 }
