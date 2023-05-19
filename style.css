@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0; 
+    font-family: 'Anton', sans-serif;
 }
 body{
     background-color: rgb(33,33,33);
 }
-.h1{
-    font-family: 'Shadows Into Light';
-}
+
 .titulo{
     color: white;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 900px 100px; /* Valor numérico para un grosor más alto */
     margin-left: -60px;
+}
+.titulo h1{
+    font-family: 'Press Start 2P', cursive;
 }
 .loremTitulo{
     display: flex;
@@ -228,13 +230,15 @@ h1, h2, h3, p, i, ul, li{
 }
 .icons{
     margin-top: 30px;
-    width: 60px;
+    width: 80px;
+    font-size: 1.2em;
     display: flex;
     flex-direction: row;
     align-items: left;
     justify-content:space-between;
     
 }
+
 .helpContenedor{
     display: flex;
     margin-top: 40px;
