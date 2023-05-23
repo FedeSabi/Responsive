@@ -10,8 +10,8 @@ body{
 .titulo{
     color: white;
     font-size: 50px;
-    font-weight: 900px 100px; /* Valor numérico para un grosor más alto */
-    margin-left: -60px;
+    font-weight: 9px; /* Valor numérico para un grosor más alto */
+    margin-left: -100px;
 }
 .titulo h1{
     font-family: 'Press Start 2P', cursive;
@@ -60,6 +60,10 @@ h1, h2, h3, p, i, ul, li{
     width: 120px;
     height: 40px; 
     cursor: pointer; 
+}
+.btsReadMore:hover{
+    background-color:white;
+    color: black;
 }
 .margenH3{
   
@@ -226,7 +230,7 @@ h1, h2, h3, p, i, ul, li{
     width:50px;
 }
 .exeryTitulo{
- font-size: xx-large;
+ font-size: x-large;
 }
 .icons{
     margin-top: 30px;
@@ -242,7 +246,7 @@ h1, h2, h3, p, i, ul, li{
 .helpContenedor{
     display: flex;
     margin-top: 40px;
-    margin-left: 200px;
+    margin-left: 30px;
     margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-evenly;   
@@ -260,7 +264,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .aboutContenedor{
     display: flex;
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 50px;
     flex-direction: column;
@@ -278,7 +282,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .mobileContenedor{
     display: flex;
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 40px;
     margin-bottom: 50px;
     flex-direction: column;
