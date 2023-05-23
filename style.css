@@ -14,7 +14,7 @@ body{
     margin-left: -100px;
 }
 .titulo h1{
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
 }
 .loremTitulo{
     display: flex;
@@ -226,7 +226,8 @@ h1, h2, h3, p, i, ul, li{
 .exery{
     display: flex;
     flex-direction: column;
-    margin: 60px;
+    margin-left: 100px;
+    margin-top: 60px;
     height:180px;
     width:50px;
 }
