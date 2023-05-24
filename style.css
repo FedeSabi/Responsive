@@ -328,10 +328,8 @@ h1, h2, h3, p, i, ul, li{
     .loremTitulo{
         margin: 30px;
         width: 400px;
-        
-        background-color:blueviolet;
     } 
-}
-@media(min-width:800px){
-    
+    .openPage{
+        margin-left:-50px;
+    }
 }
