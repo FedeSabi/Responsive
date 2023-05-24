@@ -332,4 +332,14 @@ h1, h2, h3, p, i, ul, li{
     .openPage{
         margin-left:-50px;
     }
+    .contenedorCards1{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
+    .contenedorCards2{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
 }
