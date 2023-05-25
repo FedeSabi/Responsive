@@ -11,7 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-    margin-left:40px;
+    margin-left:60px;
 
 }
 .ourBlog i{
@@ -68,7 +68,7 @@ h1, h2, h3, p, i, ul, li{
 .margenH3{
   
     width: 200px;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 30px;
     margin: 20px;
 }
@@ -91,8 +91,8 @@ h1, h2, h3, p, i, ul, li{
 }
 .img1{
     background-image: url("./img/pexels-ali-kazal-10772002.jpg");
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius:15px ;
@@ -122,8 +122,8 @@ h1, h2, h3, p, i, ul, li{
 }
 .img2{
     background-image: url("./img/pexels-ann-zzz-8330659.jpg");
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius:15px ;
@@ -159,8 +159,8 @@ h1, h2, h3, p, i, ul, li{
 }
 .img3{
     background-image: url("./img/pexels-gül-işık-2452345.jpg");
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius:15px ;
@@ -191,8 +191,8 @@ h1, h2, h3, p, i, ul, li{
 }
 .img4{
     background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius:15px ;
@@ -226,8 +226,8 @@ h1, h2, h3, p, i, ul, li{
 .exery{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-    margin-top: 60px;
+    margin-left: 80px;
+    margin-top: 50px;
     height:180px;
     width:50px;
 }
@@ -248,7 +248,7 @@ h1, h2, h3, p, i, ul, li{
 .helpContenedor{
     display: flex;
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-bottom: 50px;
     flex-direction: column;
     justify-content: space-evenly;   
@@ -320,7 +320,7 @@ h1, h2, h3, p, i, ul, li{
 
 /* Media Queries */
 
-@media(max-width:1100px){
+@media(max-width:1040px){
     .ourBlog{
         display: flex;
         flex-direction: column;
