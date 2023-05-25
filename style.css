@@ -189,7 +189,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    margin: 25px;
 }
 .img4{
     background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
@@ -204,11 +204,11 @@ body{
 }
 .btn4{
     background-color: white;
-    border-radius:20px ;
     border: none;
+    border-radius:20px ;
     padding: 8px;
     width: 80px;
-    height: 40px; 
+    height: 40px;  
 }
 .ContenidoCuatro{
     display: flex;
@@ -338,7 +338,14 @@ body{
     }
     .cardUno{
         width: 550px;
-        margin-left:auto;
+        margin:auto;
+    }
+    .ContenidoUno{
+        display: flex; 
+    }
+    .margenH3{
+        display: flex;
+        flex-direction: column;
     }
     .contenedorCards2{
         display: flex;
@@ -348,6 +355,10 @@ body{
     .cardTres{
         width: 550px;
         margin-left:auto;
+    }
+    .cardCuatro{
+        width: 550px;
+        margin-left:auto; 
     }
     .exery{
         display: flex;
@@ -383,7 +394,6 @@ body{
         margin-top: 40px;
         margin-bottom: 50px;
     } 
-    
     .contenedorFinal{
         display: flex;
         margin-left:25px;
@@ -393,5 +403,135 @@ body{
         font-size: 0.6em;
     }
 }
-
-
+@media(max-width:400px){
+    .ourBlog{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        height: 200px;
+        margin: auto;   
+    }
+    .titulo{
+        font-size: 2em;
+        margin: auto;
+        margin-top: 40px;
+    } 
+    .loremTitulo{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5em;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+    } 
+    .openPage{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 5px;
+        margin: auto;
+        width: 100px;
+        font-size: 0.6em;
+    }
+    .contenedorCards1, .contenedorCards2{
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        width: 200px;
+    }
+    .cardUno, .cardDos, .cardTres, .cardCuatro{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 500px;
+        margin:auto;
+    }
+    .img1, .img2, .img3, .img4{
+        width:200px;
+        margin-bottom: 30px;
+    }
+    .btn1, .btn2, .btn3, .btn4{
+        border-radius:10px ;
+        padding: 6px;
+        width: 60px;
+        height: 30px;   
+        width: 60px;
+        margin-left:auto;
+    }
+    .margenH3{
+        font-weight: lighter;
+        width: 150px;
+        font-size: 0.8em;
+        margin-bottom: 30px;
+        margin: auto;
+    }
+    .margenP{
+        width: 150px;
+        font-size: 0.6em;
+        margin-bottom: 30px;
+        margin: 20px;
+    }
+    .btsReadMore{
+        border-radius: 25px;
+        border: 2px solid;
+        padding: 10px;
+        margin: 25px;
+        width: 120px;
+        height: 40px; 
+    }
+    .contenedorFinal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:260px;
+        height: 620px;
+    }
+    .exery{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .exeryTitulo{
+        font-size: 1.3em;
+    }
+    .icons{
+        margin-top: 20px;
+        width: 40px;
+        font-size: 0.6em;
+        justify-content:space-evenly; 
+    }
+    .helpContenedor{
+        display: flex;
+        height: 30px;
+        margin-left: 80px;
+        font-size: 0.8em;
+    }
+    .help{
+        margin-top: 30px;
+    }
+    .aboutContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 80px;
+    }
+    .mobileContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 80px;
+        margin-right: 40px;
+        margin-top: -40px;
+    } 
+    .piePagina{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        font-size: 0.6em;
+    }
+    .privacy{
+        margin-left: 10px; 
+        margin-top: 5px;
+    }
+}
