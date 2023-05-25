@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
-    font-family: 'Anton', sans-serif;
+    
 }
 body{
     background-color: rgb(33,33,33);
@@ -29,6 +29,7 @@ body{
 }
 .titulo h1{
     font-family: 'Press Start 2P', cursive;
+    color: white;
 }
 .loremTitulo{
     display: flex;
@@ -44,8 +45,8 @@ body{
     width: 150px;
     cursor: pointer;
 }
-h1, h2, h3, p, i, ul, li{
-    
+ h2, h3, p, i, ul, li{
+    font-family: 'Anton', sans-serif;
     color: white;
 }
 
@@ -234,6 +235,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .exeryTitulo{
  font-size: xx-large;
+ color: white;
 }
 .icons{
     margin-top: 30px;
@@ -242,10 +244,8 @@ h1, h2, h3, p, i, ul, li{
     display: flex;
     flex-direction: row;
     align-items: left;
-    justify-content:space-between;
-    
+    justify-content:space-between; 
 }
-
 .helpContenedor{
     display: flex;
     margin-top: 40px;
@@ -297,7 +297,6 @@ h1, h2, h3, p, i, ul, li{
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    
 }
 .mobile li{
     color: rgb(115, 115, 115);
@@ -308,8 +307,6 @@ h1, h2, h3, p, i, ul, li{
     justify-content: center;
     margin-top: -15px;
 }
-
-
 .piePagina{
     display: flex;
     justify-content: space-around;
@@ -321,14 +318,15 @@ h1, h2, h3, p, i, ul, li{
 
 /* Media Queries */
 
-@media(max-width:1040px){
+@media (min-width:768px) and (max-width:1350px){
     .ourBlog{
         display: flex;
         flex-direction: column;
     } 
     .loremTitulo{
-        margin: 30px;
-        width: 400px;
+        margin: 20px;
+        margin-left: -40px;
+        width: 280px;
     } 
     .openPage{
         margin-left:-50px;
@@ -338,9 +336,62 @@ h1, h2, h3, p, i, ul, li{
         flex-direction: column;
         width: 550px;
     }
+    .cardUno{
+        width: 550px;
+        margin-left:auto;
+    }
     .contenedorCards2{
         display: flex;
         flex-direction: column;
         width: 550px;
     }
+    .cardTres{
+        width: 550px;
+        margin-left:auto;
+    }
+    .exery{
+        display: flex;
+        margin-left: 40px;
+        margin-top: 45px;
+    }
+    .exeryTitulo{
+     font-size: 1.3em;
+    }
+    .icons{
+        margin-top: 20px;
+        width: 40px;
+        font-size: 0.6em;
+        justify-content:space-evenly; 
+    }
+    .helpContenedor{
+        display: flex;
+        margin-left: 80px;
+        font-size: 0.8em;
+    }
+    .aboutContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 80px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .mobileContenedor{
+        display: flex;
+        font-size: 0.8em;
+        margin-left: 80px;
+        margin-right: 40px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    } 
+    
+    .contenedorFinal{
+        display: flex;
+        margin-left:25px;
+        width:700px;
+    }
+    .piePagina{
+        font-size: 0.6em;
+    }
 }
+
+
