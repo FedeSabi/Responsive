@@ -66,14 +66,15 @@ h1, h2, h3, p, i, ul, li{
     color: black;
 }
 .margenH3{
-  
+    font-weight: lighter;
     width: 200px;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 30px;
     margin: 20px;
 }
 .margenP{
     width: 250px;
+    font-size: 0.8em;
     margin-bottom: 30px;
     margin: 20px;
 }
@@ -91,7 +92,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .img1{
     background-image: url("./img/pexels-ali-kazal-10772002.jpg");
-    height: 250px;
+    height: 230px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -122,7 +123,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .img2{
     background-image: url("./img/pexels-ann-zzz-8330659.jpg");
-    height: 250px;
+    height: 230px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -159,7 +160,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .img3{
     background-image: url("./img/pexels-gül-işık-2452345.jpg");
-    height: 250px;
+    height: 230px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -191,7 +192,7 @@ h1, h2, h3, p, i, ul, li{
 }
 .img4{
     background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
-    height: 250px;
+    height: 230px;
     width: 300px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
