@@ -189,7 +189,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 5px;
 }
 .img4{
     background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
