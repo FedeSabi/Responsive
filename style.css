@@ -1,7 +1,8 @@
 *{
     margin: 0;
-    padding: 0; 
-    
+    padding: 0;
+    box-sizing: border-box; 
+    font-family:'Oswald', sans-serif;
 }
 body{
     background-color: rgb(33,33,33);
@@ -23,13 +24,13 @@ body{
 }
 .titulo{
     color: white;
-    font-size: 50px;
+    font-size: 67px;
     font-weight: bold; /* Valor numérico para un grosor más alto */
     margin-left: -100px;
 }
 .titulo h1{
-    font-family: 'Press Start 2P', cursive;
     color: white;
+    Font-size:55em;
 }
 .loremTitulo{
     display: flex;
