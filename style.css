@@ -403,7 +403,7 @@ body{
         font-size: 0.6em;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .ourBlog{
         display: flex;
         flex-direction: column;
