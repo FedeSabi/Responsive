@@ -84,7 +84,6 @@ body{
     display: flex;
     margin: 80px;
     margin-top: -10px;
-    
 }
 .cardUno{
     display: flex;
@@ -93,7 +92,7 @@ body{
     margin: 25px;
 }
 .img1{
-    background-image: url("./img/pexels-ali-kazal-10772002.jpg");
+    background-image: url("./img/micah-tindell-POZAPiiPxGk-unsplash.jpg");
     height: 230px;
     width: 300px;
     background-repeat: no-repeat;
@@ -124,7 +123,7 @@ body{
     align-items: center;
 }
 .img2{
-    background-image: url("./img/pexels-ann-zzz-8330659.jpg");
+    background-image: url("./img/andrew-neel-HqtYwlY9dxs-unsplash.jpg");
     height: 230px;
     width: 300px;
     background-repeat: no-repeat;
@@ -161,7 +160,7 @@ body{
     margin: 25px;
 }
 .img3{
-    background-image: url("./img/pexels-gül-işık-2452345.jpg");
+    background-image: url("./img/adam-wilson-1QZYZib7eYs-unsplash.jpg");
     height: 230px;
     width: 300px;
     background-repeat: no-repeat;
@@ -193,7 +192,7 @@ body{
     margin: 5px;
 }
 .img4{
-    background-image: url("./img/pexels-matheus-bertelli-2905238.jpg");
+    background-image: url("./img/joshua-reddekopp-cNe8GsQR-OQ-unsplash\ \(1\).jpg");
     height: 230px;
     width: 300px;
     background-repeat: no-repeat;
